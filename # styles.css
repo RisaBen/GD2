@@ -2,4 +2,23 @@ img {
     max-width: 100%;
 }
 
-/* comments look like this */
+body {
+    background-color: #E0FFFF;
+}
+
+p {
+    background-color: #E0FFFF;
+    color: black;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-align: center;
+    text-transform: uppercase;
+
+        {
+        /body
+    }
+
+    /* comments look like this */
