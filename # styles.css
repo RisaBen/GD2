@@ -2,6 +2,10 @@ img {
     max-width: 100%;
 }
 
+h1 {
+    font-size: 30px;
+}
+
 body {
     background-color: #E0FFFF;
 }
@@ -9,16 +13,14 @@ body {
 p {
     background-color: #E0FFFF;
     color: black;
-    font-size: 30px;
+    font-size: 120px;
     font-style: normal;
     font-weight: 500;
     letter-spacing: 1px;
     line-height: 2;
     text-align: center;
     text-transform: uppercase;
+    /body
+}
 
-        {
-        /body
-    }
-
-    /* comments look like this */
+/* comments look like this */
