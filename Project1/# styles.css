@@ -3,7 +3,7 @@ img {
 }
 
 h1 {
-    font-size: 30px;
+    text-align: center font-size: 30px;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 p {
     background-color: #E0FFFF;
     color: black;
-    font-size: 120px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
     letter-spacing: 1px;
