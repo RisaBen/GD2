@@ -24,7 +24,18 @@ body {
     background-color: #E0FFFF;
     font-size: 12 px;
 }
-
+div.a {
+    text-indent: 30px;
+  }
+div.b {
+    text-indent: 30px;
+  }
+div.c {
+    text-indent: 30px;
+  }
+div.d {
+    text-indent: 30px;
+}
 p {
     background-color: #E0FFFF;
     color: black;
