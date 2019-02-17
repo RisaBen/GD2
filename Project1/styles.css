@@ -21,11 +21,11 @@ body {
 p {
     background-color: #E0FFFF;
     color: black;
-    font-size: 15px;
+    font-size: 17px;
     font-style: bold;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 2;
+    line-height: 1;
     text-align: center;
 }
 
