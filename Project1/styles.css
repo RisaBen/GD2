@@ -5,13 +5,14 @@ img {
     margin-right: auto;
 }
 
-div.figcaption {
+figcaption {
     text-indent: 5%;
     font-size: 13px;
     font-family: helvetica;
 }
 
 h1 {
+    color: black;
     text-align: center;
     font-size: 30px;
 }
@@ -23,7 +24,7 @@ h2 {
 }
 
 body {
-    background-color: #E0FFFF;
+    background-color: rgb(227, 241, 241);
     font-size: 12 px;
 }
 
@@ -44,8 +45,8 @@ div.d {
 }
 
 p {
-    background-color: #E0FFFF;
-    color: black;
+    background-color: rgb(227, 241, 241)FF;
+    color: rgb(0, 152, 212);
     font-size: 17px;
     font-style: bold;
     font-weight: 500;
