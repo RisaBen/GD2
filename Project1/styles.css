@@ -21,13 +21,12 @@ body {
 p {
     background-color: #E0FFFF;
     color: black;
-    font-size: 12px;
-    font-style: normal;
+    font-size: 15px;
+    font-style: bold;
     font-weight: 500;
     letter-spacing: 1px;
     line-height: 2;
     text-align: center;
-    text-transform: uppercase;
 }
 
 /* comments look like this */
