@@ -14,7 +14,8 @@ figcaption {
 h1 {
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-family: helvetica, sans-serif;
+    font-size: 45px;
 }
 
 h2 {
@@ -28,45 +29,24 @@ body {
     font-size: 12px;
 }
 
-p.a {
+p {
     text-indent: 30px;
     background-color: rgb(227, 241, 241);
     color: black;
     font-size: 15px;
     text-indent: 30px;
+    font-family: helvetica, sans-serif;
 }
 
-p.b {
+.pullquote {
     color: rgb(2, 53, 95);
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 1px;
     line-height: 1.5;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif
 }
 
-p.c {
-    text-indent: 30px;
-    background-color: rgb(227, 241, 241);
-    color: black;
-    font-size: 15px;
-    text-indent: 30px;
-}
-
-p.d {
-    text-indent: 30px;
-    background-color: rgb(227, 241, 241);
-    color: black;
-    font-size: 15px;
-    text-indent: 30px;
-}
-
-p.e {
-    text-indent: 30px;
-    background-color: rgb(227, 241, 241);
-    color: black;
-    font-size: 15px;
-    text-indent: 30px;
-}
 
 /* comments look like this */
