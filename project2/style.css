@@ -1,4 +1,5 @@
 .card {
+    padding: 20px;
     color: white;
     width: 640px;
     background-color: rgb(103, 129, 138);
@@ -7,3 +8,34 @@
 img {
     max-width: 100%;
 }
+
+h1 {
+    position: relative;
+    top: 25px;
+    font-size: 65px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 12px;
+}
+
+h4 {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+body {
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+/*how do I add a "play" button underneath?*/
+/*make closer spacing between h3 and h4*/
