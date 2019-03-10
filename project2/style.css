@@ -1,8 +1,8 @@
 .card {
-    padding: 20px;
-    color: white;
-    width: 640px;
     background-color: rgb(103, 129, 138);
+    color: white;
+    padding: 20px;
+    width: 640px;
 }
 
 img {
@@ -10,9 +10,9 @@ img {
 }
 
 h1 {
+    font-size: 65px;
     position: relative;
     top: 25px;
-    font-size: 65px;
     text-align: center;
 }
 
@@ -22,12 +22,14 @@ h2 {
 }
 
 h3 {
-    text-align: center;
     font-size: 12px;
+    margin-bottom: 2px;
+    text-align: center;
 }
 
 h4 {
     font-size: 12px;
+    margin-top: 0;
     text-align: center;
 }
 
@@ -36,6 +38,27 @@ body {
     font-size: 12px;
     padding-bottom: 20px;
 }
+
+svg {
+    height: auto;
+    width: 60px;
+
+}
+
+.fil0,
+svg path {
+    fill: blue;
+}
+
+svg:hover path {
+    fill: rgb(249, 250, 187);
+}
+
+.next {
+    position: relative;
+    left: 500px;
+}
+
 
 /*how do I add a "play" button underneath?*/
 /*make closer spacing between h3 and h4*/
