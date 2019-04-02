@@ -59,6 +59,9 @@ img {
     margin-left: auto;
 }
 
+figcaption {
+    text-align: center;
+}
 
 svg {
     display: block;
