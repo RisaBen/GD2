@@ -1,30 +1,33 @@
 body {
-    margin: 0;
     background-color: rgb(243, 240, 240);
+    margin: 0;
+    font-family: helvetica, Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 13px;
+    text-align: left;
 }
 
 h1 {
-    padding: 20px;
-    background-color: rgb(128, 242, 250);
+    background-color: rgb(146, 206, 224);
+    font-size: 14px;
     margin-top: 0;
     margin-bottom: 0;
+    padding: 20px;
     text-align: center;
-    font-size: 14px;
 }
 
 h2 {
-    text-align: center;
     font-size: 12px;
+    text-align: center;
 }
 
 h3 {
-    text-align: center;
     font-size: 12px;
+    text-align: center;
 }
 
 h4 {
-    text-align: center;
     font-size: 12px;
+    text-align: center;
 }
 
 .morning {
@@ -42,25 +45,18 @@ h4 {
     padding: 20px;
 }
 
-
-body {
-    color: black;
-    font-family: helvetica, Impact, 'Arial Narrow Bold', sans-serif;
-    font-size: 13px;
-    margin: 0;
-    text-align: left;
-}
-
 img {
-    max-width: 10%;
     display: block;
     height: auto;
+    max-width: 10%;
     margin-right: auto;
     margin-left: auto;
 }
 
 figcaption {
+    padding-top: 1%;
     text-align: center;
+    font-size: 12px;
 }
 
 svg {
@@ -69,4 +65,44 @@ svg {
     margin-right: auto;
     margin-left: auto;
     width: 4%;
+}
+
+@media (min-width: 500px) {
+    svg {
+        width: 5%;
+    }
+}
+
+@media (min-width: 800px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-size: 15px
+    }
+
+    section {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    h1 {
+        font-size: 25;
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-size: 20px;
+    }
+
+    svg {
+        width: 6%;
+    }
 }
