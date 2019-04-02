@@ -9,24 +9,22 @@ h1 {
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
+    size: 13px;
 }
 
-main,
-aside,
-footer {
+.morning {
+    background-color: rgb(30, 216, 230);
     padding: 20px;
-    background-color: rgb(0, 217, 255);
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: left;
 }
 
-aside {
-    background-color: rgb(19, 186, 216);
+.midday {
+    background-color: rgb(36, 171, 212);
+    padding: 20px;
 }
 
-footer {
-    background-color: rgb(41, 155, 207);
+.evening {
+    background-color: rgb(37, 134, 190);
+    padding: 20px;
 }
 
 
@@ -39,7 +37,7 @@ body {
 }
 
 img {
-    size
+    max-width: 10%;
 }
 
 svg.makeup {
