@@ -7,3 +7,15 @@ button {
     background: transparent;
     border: 0
 }
+
+.topnav {
+    background-color: rgb(103, 129, 138);
+    color: white;
+    padding: 20px;
+    width: 640px;
+}
+
+.homeimage {
+    width: 100%;
+    padding: 10px;
+}
