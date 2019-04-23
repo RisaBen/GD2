@@ -1,0 +1,9 @@
+p,
+button {
+    font-size: 300%;
+}
+
+.button-reset {
+    background: transparent;
+    border: 0
+}
