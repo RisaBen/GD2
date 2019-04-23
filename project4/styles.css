@@ -8,6 +8,11 @@ button {
     border: 0
 }
 
+html {
+    background: url(images/earthscreenshot.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
 .topnav {
     background-color: rgb(103, 129, 138);
     color: white;
@@ -15,8 +20,7 @@ button {
     width: 640px;
 }
 
-header {
-    background image: homeimage;
-
-
+img {
+    width: 100%;
+    max-width: 800px;
 }
