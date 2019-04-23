@@ -15,7 +15,8 @@ button {
     width: 640px;
 }
 
-.homeimage {
-    width: 100%;
-    padding: 10px;
+header {
+    background image: homeimage;
+
+
 }
