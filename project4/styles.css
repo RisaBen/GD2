@@ -1,5 +1,4 @@
-p,
-button {
+/* p,button {
     font-size: 300%;
 }
 
@@ -7,20 +6,49 @@ button {
     background: transparent;
     border: 0
 }
+*/
 
-html {
-    background: url(images/earthscreenshot.jpeg) no-repeat center center fixed;
-    background-size: cover;
+
+h1 {
+    text-align: center;
+    font-style: bold;
 }
 
-.topnav {
-    background-color: rgb(103, 129, 138);
+.conferenceinfo {
+    font-style: bold;
+}
+
+body {
+    margin: 0;
+}
+
+nav ul li {
     color: white;
     padding: 20px;
-    width: 640px;
+    font-weight: bold;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+h2 ul li {
+    list-style: none;
+    display:
+        list-style-position: inherit;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgb(223, 231, 219);
+    height: 100vh;
 }
 
 img {
     width: 100%;
-    max-width: 800px;
+    max-width: 100%;
+}
+
+svg {
+    width: 20%;
 }
