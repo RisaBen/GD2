@@ -1,0 +1,62 @@
+.card {
+    background-color: rgb(103, 129, 138);
+    color: white;
+    padding: 20px;
+    width: 640px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 65px;
+    position: relative;
+    top: 25px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    text-align: center;
+}
+
+
+body {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+svg {
+    height: auto;
+    width: 60px;
+}
+
+.fil0,
+svg path {
+    fill: blue;
+}
+
+svg:hover path {
+    fill: rgb(249, 250, 187);
+}
+
+.next {
+    position: relative;
+    left: 500px;
+}
