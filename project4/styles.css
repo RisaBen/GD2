@@ -34,7 +34,7 @@ nav ul li {
 h2 ul li {
     list-style: none;
     display:
-        list-style-position: inherit;
+        style: inherit;
 }
 
 .container {
