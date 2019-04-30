@@ -4,6 +4,15 @@
     font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
 }
 
+.topnav li {
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
@@ -15,16 +24,8 @@ body {
     font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
 }
 
-.topnav li {
-    color: white;
-    padding: 20px;
-    font-weight: bold;
-    display: inline-block;
-    list-style: none;
-    text-align: center;
-}
-
 .underheading li {
+    font-size: 22px;
     list-style: none;
     font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
     text-align: center;
@@ -43,10 +44,16 @@ svg {
 
 footer {
     text-align: right;
+    margin: 32px;
     line-height: 40px;
     margin-top: 1%;
     position: relative;
     font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
+}
+
+/*why is this not showing up?*/
+footer p {
+    font-size: 45;
 }
 
 .textbody {
