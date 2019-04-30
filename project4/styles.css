@@ -8,10 +8,14 @@
 }
 */
 
+.topnav {
+    font-family: helvetica, arial, verdana, tahoma, sans-serif
+}
 
 h1 {
     text-align: center;
     font-style: bold;
+    font-family: 'Playfair Display', 'Abril Fatface', 'Cinzel', Times 'Times New Roman', Times, serif;
 }
 
 .conferenceinfo {
@@ -29,17 +33,17 @@ nav ul li {
     display: inline-block;
     list-style: none;
     text-align: center;
+    position: center;
 }
 
 h2 ul li {
     list-style: none;
-    display:
-        style: inherit;
+    display: style: inherit;
 }
 
 .container {
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0;
     background-color: rgb(223, 231, 219);
     height: 100vh;
 }
@@ -50,5 +54,35 @@ img {
 }
 
 svg {
-    width: 20%;
+    width: 3%;
 }
+
+footer {
+    font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
+}
+
+/*help ->*/
+li {
+    position: center;
+}
+
+@media (max-width: 800px) {
+    svg {
+        width: 10%;
+    }
+}
+
+@media (max-width: 420px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    li {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    svg {
+        width: 15%;
+    }
