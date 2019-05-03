@@ -5,7 +5,6 @@
 }
 
 .topnav li {
-    color: white;
     padding: 20px;
     font-weight: bold;
     display: inline-block;
@@ -13,13 +12,39 @@
     text-align: center;
 }
 
+.topnav a:hover {
+    color: rgb(226, 43, 217);
+}
+
+.registrationbutton {
+    font-variant: small-caps;
+    font-style: bold;
+    letter-spacing: .5px;
+    font-size: 18px;
+    padding: 5px;
+    width: 40%;
+    background-color: rgb(144, 224, 137);
+    border-style: solid;
+    border-color: rgb(102, 206, 188);
+    border-width: 2px;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*.registrationbutton a:hover {
+    color: rgb(214, 245, 216);
+}*/
+
 h1 {
     text-align: center;
     font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
 }
 
 body {
-    background-color: rgb(161, 194, 162);
+    background-color: rgb(213, 236, 228);
     margin: 0;
     font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
 }
@@ -51,9 +76,13 @@ footer {
     font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
 }
 
-/*why is this not showing up?*/
+/*why is the font-size not showing up?*/
 footer p {
-    font-size: 45;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 .textbody {
@@ -61,5 +90,11 @@ footer p {
     margin-top: 2%;
     width: 100%;
 }
+
+
+/* .register a.hover {
+    background color: red;
+}
+border: creates borders */
 
 /* google web fonts/ system fonts can work on mobile for seriff legibility on mobile*/
