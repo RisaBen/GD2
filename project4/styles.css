@@ -36,7 +36,7 @@
     font-size: 18px;
     padding: 5px;
     width: 40%;
-    background-color: rgb(236, 211, 201);
+    background-color: rgb(221, 218, 228);
     text-align: center;
     display: block;
     margin-right: auto;
@@ -55,11 +55,11 @@ h1 {
 }
 
 .underheading li {
-    font-size: 22px;
+    font-size: 20px;
     list-style: none;
     font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
     text-align: center;
-    line-height: 125%;
+    line-height: 135%;
     letter-spacing: .7px;
     color: rgb(34, 25, 25)
 }
@@ -80,7 +80,7 @@ img {
 .textbody p {
     text-align: left;
     padding: 2%;
-    line-height: 20px;
+    line-height: 23px;
     width: 95%;
     color: rgb(0, 0, 0);
     letter-spacing: .3px;
@@ -106,6 +106,10 @@ footer p {
 svg {
     width: 45px;
     height: auto;
+}
+
+ol {
+    line-height: 50px;
 }
 
 
