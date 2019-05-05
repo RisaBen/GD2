@@ -1,7 +1,7 @@
 body {
     background-color: rgb(241, 242, 247);
-    margin: 0;
     font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
+    margin: 0;
 }
 
 img {
@@ -15,20 +15,19 @@ img {
 }
 
 .topnav {
+    line-height: 20px;
     margin-top: 0;
     text-align: center;
-    line-height: 20px;
-    font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
 }
 
 .topnav li {
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    list-style: none;
     margin-top: 0;
     padding: 20px;
-    font-weight: bold;
-    display: inline-block;
-    list-style: none;
     text-align: center;
-    color: white;
 }
 
 .topnav a {
@@ -40,42 +39,42 @@ img {
 }
 
 .registrationbutton {
+    background-color: rgb(221, 218, 228);
+    display: block;
     font-variant: small-caps;
     font-style: bold;
     letter-spacing: .2px;
     font-size: 18px;
     padding: 5px;
     width: 40%;
-    background-color: rgb(221, 218, 228);
     text-align: center;
-    display: block;
     margin-right: auto;
     margin-left: auto;
 }
 
 h1 {
-    text-align: center;
-    letter-spacing: 2px;
     color: rgb(43, 20, 5);
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 .underheading li {
+    color: rgb(34, 25, 25);
     font-size: 20px;
     list-style: none;
-    text-align: center;
     line-height: 135%;
     letter-spacing: .7px;
-    color: rgb(34, 25, 25)
+    text-align: center;
 }
 
 
 .textbody p {
-    text-align: left;
-    padding: 2%;
-    line-height: 23px;
-    width: 95%;
     color: rgb(0, 0, 0);
+    line-height: 23px;
     letter-spacing: .3px;
+    padding: 2%;
+    text-align: left;
+    width: 95%;
 }
 
 .schedule .speakers .registration h1 {
@@ -104,11 +103,10 @@ ul {
 }
 
 footer {
-    text-align: right;
     margin: 0;
     line-height: 40px;
     position: relative;
-    font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
+    text-align: right;
 }
 
 footer p {
@@ -121,11 +119,16 @@ footer p {
 }
 
 svg {
-    width: 45px;
     height: auto;
+    width: 45px;
 }
 
 @media (min-width: 600px) {
+
+    .registrationbutton {
+        padding: 5px;
+        width: 30%;
+    }
 
     h1 {
         font-size: 45px;
@@ -147,20 +150,16 @@ svg {
         font-size: 21px;
     }
 
-    .registrationbutton {
-        padding: 5px;
-        width: 30%;
-    }
 }
 
 @media (min-width: 900px) {
-    .underheading li {
-        font-size: 30px;
-    }
-
     .registrationbutton {
         padding: 5px;
         width: 30%;
+    }
+
+    .underheading li {
+        font-size: 30px;
     }
 }
 
