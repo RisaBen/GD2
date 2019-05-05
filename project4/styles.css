@@ -146,6 +146,11 @@ svg {
     ul {
         font-size: 21px;
     }
+
+    .registrationbutton {
+        padding: 5px;
+        width: 30%;
+    }
 }
 
 @media (min-width: 900px) {
@@ -153,10 +158,24 @@ svg {
         font-size: 30px;
     }
 
-    /* .register a.hover {
+    .registrationbutton {
+        padding: 5px;
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .registrationbutton {
+        padding: 5px;
+        width: 22%;
+    }
+}
+
+/* .register a.hover {
     background color: red;
 }
 border: creates borders */
 
-    /* google web fonts/ system fonts can work on mobile for seriff legibility on mobile*/
-    /*focus on functionality/accessability*/
+/* google web fonts/ system fonts can work on mobile for seriff legibility on mobile*/
+/*focus on functionality/accessability*/
