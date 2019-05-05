@@ -86,6 +86,13 @@ img {
     letter-spacing: .3px;
 }
 
+.andrea {
+    background-image: url("images/speakerone.png");
+    background-repeat: no-repeat;
+    background-position: 10px top;
+    margin-left: 50px;
+}
+
 footer {
     text-align: right;
     margin: 0;
