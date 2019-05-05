@@ -1,5 +1,5 @@
-.lowerpage {
-    background-image: url("images/extremered.png");
+.top {
+    background-image: url("images/ScreenShottan.jpg");
     max-width: 100%;
 }
 
@@ -9,12 +9,14 @@
 }*/
 
 .topnav {
+    margin-top: 0;
     text-align: center;
     line-height: 20px;
     font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
 }
 
 .topnav li {
+    margin-top: 0;
     padding: 20px;
     font-weight: bold;
     display: inline-block;
@@ -34,21 +36,22 @@
     font-size: 18px;
     padding: 5px;
     width: 40%;
-    background-color: rgb(160, 139, 132);
-    border-style: solid;
-    border-color: rgb(94, 94, 94);
-    border-width: 2px;
+    background-color: rgb(236, 211, 201);
     text-align: center;
     display: block;
     margin-right: auto;
     margin-left: auto;
 }
 
+.schedule .speakers .registration h1 {
+    color: black;
+}
+
 h1 {
     text-align: center;
     font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
-    color: rgb(250, 244, 244);
     letter-spacing: 2px;
+    color: rgb(43, 20, 5);
 }
 
 .underheading li {
@@ -57,12 +60,12 @@ h1 {
     font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
     text-align: center;
     line-height: 125%;
-    color: rgb(238, 227, 227);
     letter-spacing: .7px;
+    color: rgb(34, 25, 25)
 }
 
 body {
-    background-color: rgb(83, 74, 74);
+    background-color: rgb(241, 242, 247);
     margin: 0;
     font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
 }
@@ -79,7 +82,7 @@ img {
     padding: 2%;
     line-height: 20px;
     width: 95%;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     letter-spacing: .3px;
 }
 
