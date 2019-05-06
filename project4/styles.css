@@ -36,16 +36,16 @@ img {
 }
 
 .topnav a:hover {
-    color: rgb(37, 32, 58);
+    color: rgb(24, 21, 39);
 }
 
-.registrationbutton a:hover {
-    color: rgb(132, 116, 196);
+.registrationbutton:hover {
+    background-color: rgb(54, 45, 36);
 }
 
 .registrationbutton {
-    background-color: rgb(26, 8, 3);
-    color: rgb(255, 255, 255);
+    background-color: rgb(16, 11, 41);
+    color: white;
     display: block;
     font-variant: small-caps;
     font-weight: bold;
@@ -59,7 +59,7 @@ img {
 }
 
 h1 {
-    color: rgb(43, 20, 5);
+    color: rgb(27, 13, 3);
     letter-spacing: 2px;
     text-align: center;
 }
