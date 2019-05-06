@@ -1,0 +1,201 @@
+body {
+    background-color: rgb(241, 242, 247);
+    font-family: helvetica, arial, Verdana, Tahoma, sans-serif;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.top {
+    background-image: url("images/ScreenShottan.jpg");
+    max-width: 100%;
+    padding-bottom: 1%;
+}
+
+.topnav {
+    line-height: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.topnav li {
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    list-style: none;
+    margin-top: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav a {
+    color: white;
+}
+
+.topnav a:hover {
+    color: rgb(24, 21, 39);
+}
+
+.registrationbutton:hover {
+    background-color: rgb(54, 45, 36);
+}
+
+.registrationbutton {
+    background-color: rgb(16, 11, 41);
+    color: white;
+    display: block;
+    font-variant: small-caps;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    color: rgb(27, 13, 3);
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.underheading li {
+    color: rgb(34, 25, 25);
+    font-size: 20px;
+    list-style: none;
+    line-height: 135%;
+    letter-spacing: .7px;
+    text-align: center;
+}
+
+
+.textbody p {
+    color: rgb(0, 0, 0);
+    line-height: 23px;
+    letter-spacing: .3px;
+    padding: 2%;
+    text-align: left;
+    width: 95%;
+}
+
+.schedule .speakers .registration h1 {
+    color: black;
+}
+
+ol {
+    line-height: 50px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+.andrea img {
+    max-width: 90px;
+}
+
+.nelson img {
+    max-width: 90px;
+}
+
+.ernesto img {
+    max-width: 90px;
+}
+
+footer {
+    margin: 0;
+    line-height: 40px;
+    position: relative;
+    text-align: right;
+}
+
+footer p {
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 2%;
+}
+
+svg {
+    height: auto;
+    width: 45px;
+}
+
+@media (min-width: 500px) {
+    .topnav li {
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 600px) {
+    .topnav li {
+        font-size: 22px;
+    }
+
+    .registrationbutton {
+        width: 174px;
+        font-size: 22px;
+        letter-spacing: 1.5px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .underheading li {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    ol {
+        font-size: 21px;
+    }
+
+    ul {
+        font-size: 21px;
+    }
+
+}
+
+@media (min-width: 900px) {
+    .registrationbutton {
+        width: 24%;
+    }
+
+    .underheading li {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .underheading li {
+        font-size: 36px;
+    }
+
+    .registrationbutton {
+        width: 20%;
+        font-size: 25px;
+    }
+}
+
+
+/*speakers taken from https://www.dmi.org/page/London2019Overview*/
+
+/* google web fonts/ system fonts can work on mobile for seriff legibility on mobile*/
+/*focus on functionality/accessability*/
