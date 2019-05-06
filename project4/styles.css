@@ -129,11 +129,21 @@ svg {
     width: 45px;
 }
 
+@media (min-width: 500px) {
+    .topnav li {
+        font-size: 20px;
+    }
+}
+
+
 @media (min-width: 600px) {
+    .topnav li {
+        font-size: 22px;
+    }
 
     .registrationbutton {
         width: 174px;
-        font-size: 25px;
+        font-size: 22px;
         letter-spacing: 1.5px;
     }
 
